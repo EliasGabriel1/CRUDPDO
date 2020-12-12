@@ -41,3 +41,4 @@ melhorar o aprendizado, além de fortalecer a gestão presente.
 A metodologia usada foi quantitativa visando entender os clientes aonde está inserido o projeto, e qualitativa no aspecto 
 do estudo da metodologia ativa gamificação. 
 >>>>>>> 607e9a5bcfc24ea50212b233b42192ec4a51810f
+# projects
