@@ -13,9 +13,9 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="http://localhost/ProjetoScript/Views/Quem%20somo%20n%C3%B3s/quemsomosnos.php">
-        <div class="logo">
-          <img class="logo-store" src="logo_store.png"/>
+      <a class="navbar-brand" href="http://localhost/ProjetoScr1pt/Views/Quem%20somo%20n%C3%B3s/quemsomosnos.php">
+        <div class="">
+              <a class="navbar-brand" href="http://localhost/ProjetoScr1pt\Views\Quem somo nós\quemsomosnos.php" style="font-size:20px">New World Sistems</a>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,12 +27,12 @@
 
         <span class="navbar-text">
           <div class="botton1" style="padding-left: 20px;padding-right: 0px;">
-            <form action="http://localhost/ProjetoScript/Views/Tela%202/cadastro.php" style="padding-bottom: 0px;">
+            <form action="http://localhost/ProjetoScr1pt/Views/Tela%202/cadastro.php" style="padding-bottom: 0px;">
               <input type="submit" value="Cadastro" class="btn btn-secondary" style="height: 38px;width: 86px;margin-left: 0px;">
             </form>
           </div>
           <div class="botton2">
-            <form action="http://localhost/ProjetoScript/Views/Tela%203/index.php">
+            <form action="http://localhost/ProjetoScr1pt/Views/Tela%203/index.php">
               <input type="submit" value="Acesso" class="btn btn-secondary" style="width: 86px;">
             </form>
           </div>
@@ -47,7 +47,7 @@
   <main>
     <div class="container">
       <div class="logo_isolated">
-        <img class="logo-two" src="https://www.univem.edu.br/storage/paginas/February2019/logo1.png" style="margin-top: 15px;" alt="logo-Univem">
+        <img class="logo-1" src="https://image.flaticon.com/icons/png/512/702/702814.png" style="margin-top: 15px;height:80px" alt="logo-Univem"> <span class="align-self-end">Inova Ideas</span>
       </div>
       <div class="text1">
             <div class="container" style="padding-left: 0px;">
@@ -62,8 +62,8 @@
   </main>
   <footer>
     <div class="text2">
-        <div class="container" font-size:"35px">
-          <p>Univem Student Store foi feito para melhor desempenho dos seus alunos</p><p>
+        <div class="container" style="font-size:35px">
+          <p>Inova Ideas foi feito para melhor desempenho das suas ideias e poder executá-las</p><p>
         </p></div>
     </div>
       </footer>
