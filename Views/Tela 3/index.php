@@ -20,19 +20,17 @@ session_start();
     <div class="container">
         <div class="box">
             <header>
-                <div class="logo">
-                    <figure>
-                        <img src="https://www.univem.edu.br/img/site/logo.png" width="283.2" height="63.6" alt="logoUnivem">
-                    </figure>
-                </div>
+            <div class="logo_isolated">
+              <img class="logo-1" src="https://image.flaticon.com/icons/png/512/702/702814.png" style="height:50px" alt="logo"> <span class="align-self-end">Inova Ideas</span>
+            </div>
                 <div class="login" style="padding-top: 0px;padding-bottom: 0px;">
-                  <h1> Enter with RA </h1>
+                  <h1> LOGIN </h1>
                 </div>
             </header>
                 
             <form action="login.php" method="POST">
               <div class="form-group">
-                <label for="exampleDropdownFormEmail1">RA</label>
+                <label for="exampleDropdownFormEmail1">Login</label>
                 <input type="text" name="usuario" class="form-control" id="exampleDropdownFormEmail1" placeholder="ex: 51237-5" style="width: 383px;">
               </div>
               <div class="form-group">
@@ -49,8 +47,8 @@ session_start();
               <button type="submit" class="btn btn-primary">Sign in</button>
             </form>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="http://localhost/ProjetoScript/Views/Tela%202/cadastro.php">New around here? Sign up</a>
-              <a class="dropdown-item" href="http://localhost/ProjetoScript/Views/esqueceu%20a%20senha/esqueceu%20a%20senha.php">Forgot password?</a>
+              <a class="dropdown-item" href="http://localhost/ProjetoScr1pt/Views/Tela%202/cadastro.php">New around here? Sign up</a>
+              <a class="dropdown-item" href="http://localhost/ProjetoScr1pt/Views/esqueceu%20a%20senha/esqueceu%20a%20senha.php">Forgot password?</a>
         </div>
     </div>
     
