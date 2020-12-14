@@ -241,8 +241,8 @@ include("..\..\conexao.php");
 						<li><a href="#"><?php echo $_SESSION['email']?></a></li>
 					</ul>
 					<div class="profile-userbuttons" >
-						<a href="https://areaaluno.univem.edu.br/login"><button type="button" class="btn btn-success" style="border-left-width: 00px; margin-left: 17px;">Area do aluno Univem</button><a>
-						<a href="https://www.ead.univem.edu.br/ambiente/login/index.php"><button type="button" class="btn btn-primary">EAD</button></a>
+						<a href="#"><button type="button" class="btn btn-success" style="border-left-width: 00px; margin-left: 17px;">cursos</button><a>
+						<a href="#"><button type="button" class="btn btn-primary">Quem faz parte dessa familia?</button></a>
 					</div>
 					<ul class="footer" style="display: inline-flex;">
 						<li>
@@ -265,17 +265,11 @@ include("..\..\conexao.php");
 		
 		<header>
 			<div class="navbar"style="padding-right: 5px;">
-				<a class="whoareu" href="http://localhost/ProjetoScript\Views\Quem somo nós\quemsomosnos.php">
-				  <div class="logo">
-					<img class="logo-store" src="logo_store.png" alt="Univem Student Store">
-				  </div>
-				</a>
-				<div class="Welcome">
-					<p style="font-weight: 400;line-height: 53px;letter-spacing: 1px;text-transform: uppercase;font-size: 27px;"><?php echo $_SESSION['nome'];?>  Seja Bem-Vindo no Univem Store</p>
+				<div class="navbar-item">
+					<a class="navbar-brand" href="http://localhost/ProjetoScr1pt\Views\Quem somo nós\quemsomosnos.php" style="font-size:20px">New World Sistems</a>
 				</div>
-			
-				<div class="points">
-					<p style="font-weight: 400;line-height: 53px;letter-spacing: 1px;text-transform: uppercase;font-size: 15px;"> Voce possui <?php echo$_SESSION['pontos']?> Univempoints</p>
+				<div class="Welcome">
+					<p style="font-weight: 400;line-height: 53px;letter-spacing: 1px;text-transform: uppercase;font-size: 27px;"><?php echo $_SESSION['nome'];?>  Seja Bem-Vindo a nossa fabrica de ideias</p>
 				</div>
 			</div>
 			<hr style="margin-bottom: 1px; margin-top: 0px; border-top-width: 2px;">
@@ -317,173 +311,7 @@ include("..\..\conexao.php");
 					<br> <br> <br> <br>
 			
 					<hr/>
-				<h1 class="section" style="margin-left: 542px;margin-bottom: 50px;">seccoes</h1>
 
-			
-					<div class="carrossel-store" style="display: grid; margin-left: 370px; height: 900px;">
-
-						<div class="cantina-carrossel">
-
-							<div class="cantina" style="margin-left:180px;">
-								<h2 >Cantina</h2>
-							</div>
-
-							<div class="cafe-cantina"style="float: left; width: 180px;">
-								<div class="cafe">
-								
-									<div class="imagem">
-										<img src="https://images.vexels.com/media/users/3/145589/isolated/preview/e224f5817268d0af82ca77d7bcc64a37-x--cara-de-caf--by-vexels.png" width="100" height="100" alt="café-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>Cafe Tradicional</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>
-							</div>
-							
-							<div class="lanche-carrossel"style="float: left; width: 180px;">
-								<div class="lanche-natural">
-								
-									<div class="imagem">
-										<img src="https://www.hospitaloswaldocruz.org.br/wp-content/uploads/2017/02/substituto-de-refeicao-lanche-natural.jpg" width="100" height="100" alt="lanche-natural-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>lanche-natural</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>
-							</div>
-					
-				
-							<div class="bala-carrossel" style="float: left; width: 180px;">
-								<div class="bala">
-									<div class="imagem">
-										<img src="https://www.arcor.com.br/wp-content/uploads/2019/07/produto-7belo-bala-framboesa-un.png" width="150" height="100" alt="bala-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>bala</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-									
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>	
-							</div>
-				
-				
-						</div>
-				
-				
-						<br>
-
-				
-						<div class="Biblioteca" style="margin-top: 180px;">
-							<div class="livros">
-				
-								<div class="biblioteca">
-									<h2 style="margin-left: 165px; margin-top: 0px; ">Biblioteca</h2>
-								</div>
-					
-								<div class="livros-de-estudos"style="float: left; width: 180px;">
-								
-									<div class="imagem">
-										<img src="https://cdn.pixabay.com/photo/2013/07/12/14/18/book-148200_960_720.png" width="100" height="100" alt="livro-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>Livro de estudos</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-
-									
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>
-					
-					
-								<div class="livros-de-ficcao"style="float: left; width: 180px;">
-								
-									<div class="imagem">
-										<img src="https://www.pausaparanerdices.com/wp-content/uploads/2016/04/Jk-Rowling-Novo-livro3.jpg" width="100" height="100" alt="livros-ficcao-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>livro de Ficção Científica</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-
-									
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>
-					
-					
-								<div class="gibi"style="float: left; width: 180px;">
-								
-									<div class="imagem">
-										<img src="https://printstore.com.br/wp-content/uploads/2018/11/quer-imprimir-quadrinhos-1024x583.png" width="143.15" height="81.62" alt="gibi-png">
-									</div>
-						
-									<div class="nome-produto">
-										<p>Gibis</p>
-									</div>
-						
-									<div class="valor-produto">
-										<p>xxxx Univem Points</p>
-									</div>
-
-									<div class="comprar">
-										<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" 
-											style="padding-left: 5px; padding-right: 5px; padding-bottom: 0px; padding-top: 0px ; width: 82px;">Comprar</a>
-									</div>
-
-									<br> 
-								</div>
-							</div>
 				
 						<!--</div>
 							<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -506,7 +334,7 @@ include("..\..\conexao.php");
 		<footer>
 			<div>
 				<hr style="margin-bottom: 1px;margin-top: 0px;border-top-width: 2px;width: 550px;margin-left: 355px;">
-				<p style="margin-left: 350px; height: 30px;">© 2020 UNIVEM-Centro Universitário Eurípides de Marília. | Criado por Elias Gabriel</p>
+				<p style="margin-left: 350px; height: 30px;">© 2020 inova Ideas Sistems | Criado por Elias Gabriel</p>
 			</div>
 		</footer>
 		
