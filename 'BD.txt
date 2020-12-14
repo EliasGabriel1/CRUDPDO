@@ -1,0 +1,11 @@
+CREATE DATABASE project_script;
+USE project_script;
+
+CREATE TABLE usuario(
+    id VARCHAR(10) AUTO_INCREMENT,
+    usuario VARCHAR(20) NOT NULL,
+    senha VARCHAR(20) NOT NULL,
+    nome VARCHAR(20) NOT NULL,
+    Data_cadastro DATE NOT NULL,
+    email VARCHAR(30) NOT NULL,
+);
